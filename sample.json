@@ -1,0 +1,703 @@
+{
+    "vehicles": [
+        {
+            "MODE": "1",
+            "QUEUE_ID": "",
+            "INSPECTION_ID": "202401300010",
+            "INSPECTOR_USERNAME": "CHRISTIAN.PEREZ",
+            "STAGE_NO": "Car1:W1",
+            "INSPECTION_REF_NO": "202401300010",
+            "TRANSACTION_NO": "202401300010",
+            "PURPOSE": "REPEATED",
+            "PMVIC_CENTER": "FLOMEN PRIVATE MOTOR VEHICLE INSPECTION CENTER",
+            "ITP_CODE": "Sys",
+            "VEHICLE_INFORMATION": {
+                "Mileage": 1,
+                "Chassis": "MPBSXXMXKSHU75121",
+                "Engine": "UEJAHU75121",
+                "MV_File_No": "130100000886436"
+            },
+            "NOISE": {
+                "Status": null,
+                "Pipe": [
+                    {
+                        "DateTime_Start": "2024-02-19 02:4653",
+                        "DateTime_End": "2024-02-19 02:4653",
+                        "engine": {
+                            "dbA": 0,
+                            "dbA_limit": -1,
+                            "Verdict": 1
+                        },
+                        "exhaust": {
+                            "dbA": 81.8,
+                            "dbA_limit": 100,
+                            "Verdict": 1
+                        },
+                        "horn": {
+                            "dbA": 0.0,
+                            "dbA_limit": -1.0,
+                            "Verdict": 1
+                        }
+                    }
+                ],
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "Verdict": 1
+            },
+            "EMISSIONS": {
+                "Status": {
+                    "Status": 1,
+                    "Remarks": "PASSED"
+                },
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "Fuel_obj": [
+                    {
+                        "Fuel": 1,
+                        "Pipe": [
+                            {
+                                "Idle": {
+                                    "HC": 18,
+                                    "CO": 0.02,
+                                    "CO2": 0.0,
+                                    "O2": 0.0,
+                                    "NO": 0.0,
+                                    "Lambda": 0.0,
+                                    "Oil_Temperature": 0.0,
+                                    "RPM": 0.0
+                                },
+                                "Fast": {
+                                    "HC": 18,
+                                    "CO": 0.02,
+                                    "CO2": 0.0,
+                                    "O2": 0.0,
+                                    "NO": 0.0,
+                                    "Lambda": 0.0,
+                                    "Oil_Temperature": 0.0,
+                                    "RPM": 0.0
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "Result_HC": "18",
+                "Result_CO": "0.02",
+                "Verdict": "1"
+            },
+            "OPACITY": {
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "Pipe": [
+                    {
+                        "DateTime_Start": null,
+                        "DateTime_End": null,
+                        "K_Average": "0",
+                        "Accelerations": [
+                            {
+                                "K": "0",
+                                "RPM_Idle": 0,
+                                "RPM_Fast": 0,
+                                "Oil_Temperature": 0
+                            }
+                        ],
+                        "Verdict": "1"
+                    }
+                ],
+                "Result_K": "0",
+                "Verdict": "1"
+            },
+            "LIGHTS": {
+                "Status": {
+                    "Status": 1,
+                    "Remarks": "PASSED"
+                },
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "High_Beams": {
+                    "Left_Vertical": -23.6,
+                    "Left_Horizontal": 7.6,
+                    "Left_Intensity": 58600,
+                    "Left_Yaw_Angle": 0.0,
+                    "Left_Pitch_Angle": 0.0,
+                    "Left_Elevation": 0.0,
+                    "Right_Vertical": 59800,
+                    "Right_Horizontal": 0.0,
+                    "Right_Intensity": 59800,
+                    "Right_Yaw_Angle": 0.0,
+                    "Right_Pitch_Angle": 0.0,
+                    "Right_Elevation": 0.0,
+                    "Difference": 0.0
+                },
+                "Low_Beams": {
+                    "Left_Vertical": -23.6,
+                    "Left_Horizontal": 7.6,
+                    "Left_Intensity": 58600,
+                    "Left_Yaw_Angle": 0.0,
+                    "Left_Pitch_Angle": 0.0,
+                    "Left_Elevation": 0.0,
+                    "Right_Vertical": 59800,
+                    "Right_Horizontal": 0.0,
+                    "Right_Intensity": 59800,
+                    "Right_Yaw_Angle": 0.0,
+                    "Right_Pitch_Angle": 0.0,
+                    "Right_Elevation": 0.0,
+                    "Difference": 0.0
+                },
+                "Fog_Beams": null,
+                "Verdict": "1"
+            },
+            "SIDESLIP": {
+                "Status": {
+                    "Status": 1,
+                    "Remarks": "PASSED"
+                },
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "Axle": [
+                    {
+                        "Value": 1.15
+                    },
+                    {
+                        "Value": 1.15
+                    }
+                ],
+                "Verdict": "1"
+            },
+            "SUSPENSION": {
+                "Status": {
+                    "Status": 1,
+                    "Remarks": "PASSED"
+                },
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "Axle": [
+                    {
+                        "Left_Weight": 378,
+                        "Left_Frequency": 0,
+                        "Left_Efficiency": 71,
+                        "Right_Weight": 372,
+                        "Right_Frequency": 0,
+                        "Right_Efficiency": 54,
+                        "Axle_Weight": 0,
+                        "Frequency_Difference": 0.0,
+                        "Efficiency_Difference": 24
+                    },
+                    {
+                        "Left_Weight": 318,
+                        "Left_Frequency": 0,
+                        "Left_Efficiency": 71,
+                        "Right_Weight": 286,
+                        "Right_Frequency": 0,
+                        "Right_Efficiency": 66,
+                        "Axle_Weight": 0,
+                        "Frequency_Difference": 0.0,
+                        "Efficiency_Difference": 7
+                    }
+                ],
+                "Verdict": "1"
+            },
+            "BRAKES": {
+                "Status": {
+                    "Status": 1,
+                    "Remarks": "PASSED"
+                },
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "Axle": [
+                    {
+                        "Service": {
+                            "Weight_Left": 378,
+                            "Weight_Right": 372,
+                            "Weight_Total": 750,
+                            "Force_Left": 2746,
+                            "Force_Right": 2503,
+                            "Force_Difference": 9,
+                            "Efficiency_Left": 0.0,
+                            "Efficiency_Right": 0.0,
+                            "Efficiency": 71,
+                            "Rolling_Resistance_Left": 7.0,
+                            "Rolling_Resistance_Right": 8.0,
+                            "Ovalisation_Left": 0.0,
+                            "Ovalisation_Right": 0.0,
+                            "Pedal_Force": 0.0,
+                            "Pressure": 0.0
+                        },
+                        "Parking": null
+                    },
+                    {
+                        "Service": {
+                            "Weight_Left": 318,
+                            "Weight_Right": 286,
+                            "Weight_Total": 604,
+                            "Force_Left": 2012,
+                            "Force_Right": 2248,
+                            "Force_Difference": 10,
+                            "Efficiency_Left": 0.0,
+                            "Efficiency_Right": 0.0,
+                            "Efficiency": 72,
+                            "Rolling_Resistance_Left": 3.0,
+                            "Rolling_Resistance_Right": 6.0,
+                            "Ovalisation_Left": 0.0,
+                            "Ovalisation_Right": 0.0,
+                            "Pedal_Force": 0.0,
+                            "Pressure": 0.0
+                        },
+                        "Parking": {
+                            "Weight_Left": 378,
+                            "Weight_Right": 372,
+                            "Weight_Total": 2012,
+                            "Force_Left": 943,
+                            "Force_Right": 1123,
+                            "Force_Difference": 0,
+                            "Efficiency_Left": 0.0,
+                            "Efficiency_Right": 0.0,
+                            "Efficiency": 35,
+                            "Rolling_Resistance_Left": 3.0,
+                            "Rolling_Resistance_Right": 5.0,
+                            "Ovalisation_Left": 1,
+                            "Ovalisation_Right": 1,
+                            "Pedal_Force": 0.0,
+                            "Pressure": 0.0
+                        }
+                    }
+                ],
+                "Globals": {
+                    "Service_Efficiency_Measured": 0.0,
+                    "Parking_Efficiency_Measured": 0.0,
+                    "Service_Efficiency_Calculated": 0.0,
+                    "Parking_Efficiency_Calculated": 0.0
+                },
+                "Verdict": 1
+            },
+            "SPEEDOMETER": {
+                "Status": {
+                    "Status": 1,
+                    "Remarks": "PASSED"
+                },
+                "DateTime_Start": "2024-02-19 02:4653",
+                "DateTime_End": "2024-02-19 02:4653",
+                "Target_Speed": 20,
+                "Speed_Point": [
+                    {
+                        "Value": 17.36
+                    }
+                ],
+                "Verdict": "1"
+            },
+            "DEFECTS": {
+                "Defects": [
+                    {
+                        "ID": 1,
+                        "Description": "Body Appearance",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 2,
+                        "Description": "Chassis",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 3,
+                        "Description": "Engine",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 4,
+                        "Description": "Handle Bars",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": -1
+                    },
+                    {
+                        "ID": 5,
+                        "Description": "Wiper / Washer",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 6,
+                        "Description": "Windshield / Window Glass",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 7,
+                        "Description": "Headlights",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 8,
+                        "Description": "Signal Lights (front)",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 9,
+                        "Description": "Signal Lights (rear)",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 10,
+                        "Description": "Parking Lights (front)",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 11,
+                        "Description": "Parking Lights (rear)",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 12,
+                        "Description": "Brake Lights",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 13,
+                        "Description": "Back-up Lights",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 15,
+                        "Description": "Number Plate / Lights",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 16,
+                        "Description": "Hazard Lights",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 17,
+                        "Description": "Reflectors",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 18,
+                        "Description": "Interior Lights",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 20,
+                        "Description": "Seat Belts",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 21,
+                        "Description": "Horn",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 22,
+                        "Description": "Door / Hinges",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 23,
+                        "Description": "Floor Board",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 24,
+                        "Description": "Side Mirror / Rear View",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 26,
+                        "Description": "Brake System",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 27,
+                        "Description": "Drivers  / Passengers Seat",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 28,
+                        "Description": "Steering",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 29,
+                        "Description": "Tires / Wheels",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 30,
+                        "Description": "Wheels Bolts / Nuts",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 31,
+                        "Description": "Fuel Tank / Cap",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 32,
+                        "Description": "Panel Gauges",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 33,
+                        "Description": "Radiator",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 34,
+                        "Description": "Engine Bracket / Mounting",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 35,
+                        "Description": "Engine Oil Leakage",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 36,
+                        "Description": "Transmission Oil Leakage",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 37,
+                        "Description": "Steering Ball Joints",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 38,
+                        "Description": "Steering Leackages / Gear Box Mounting",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 40,
+                        "Description": "Front Shackle Eyes / Pins / Bushes",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 41,
+                        "Description": "Rear Shackle / Pins / Bushes",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 42,
+                        "Description": "Stabilizer / Bushes",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 44,
+                        "Description": "Front Suspension Joints / Bushes",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 45,
+                        "Description": "Rear Suspension Joints / Bushes",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 46,
+                        "Description": "Rear Linkages",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 47,
+                        "Description": "Spring",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 63,
+                        "Description": "EWD",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 64,
+                        "Description": "Color",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": 1
+                    },
+                    {
+                        "ID": 65,
+                        "Description": "Diesel Fuel System Seal",
+                        "Motive": "",
+                        "Observation": "",
+                        "Picture": "",
+                        "Severity": 1,
+                        "Verdict": -1
+                    }
+                ]
+            },
+            "BRANCH_ID": "1",
+            "ENGINE_NUM": "UEJAHU75121",
+            "CHASIS_NUM": "MPBSXXMXKSHU75121",
+            "PLATE_NUM": "NAL1091",
+            "MV_FILE": "130100000886436"
+        }
+    ]
+}
